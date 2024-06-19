@@ -4,7 +4,7 @@ var app = express();
 
 // Respond with "changed not" for requests that hit our root "/"
 app.get('/', function (req, res) {
-  res.send('welcome dev');
+  res.send('Finally deployed');
 });
 
 // Listen on port 3000 by default or the port defined in the environment variables
